@@ -11,7 +11,7 @@ let workItems = []
 app.use(bodyParser.urlencoded({extended:true}))
 app.use(express.static("public"))
 
-mongoose.connect("mongodb://localhost:27017/todoListDB")
+mongoose.connect("mongodb://mongo:nAlZnfGuqNwrEFSehjHIpsZVNnRfIGoq@yamabiko.proxy.rlwy.net:43293")
 
 //SCHEMA
 const itemsSchema = {
